@@ -17,7 +17,7 @@ pygments.Highlight("code", "lexer", "format", "encoding")
 ```
 
 ```go
-pygments.Highlight('print "Hello World!"', 'python', 'html', 'utf-8')
+pygments.Highlight("print \"Hello World!\"", "python", "html", "utf-8")
 ```
 
 #### Provide Custom Path
