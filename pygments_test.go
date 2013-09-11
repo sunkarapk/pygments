@@ -1,0 +1,5 @@
+package pygments
+
+import (
+	"testing"
+)
