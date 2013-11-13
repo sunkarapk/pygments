@@ -1,3 +1,5 @@
+// Pygments wrapper for golang. Pygments is a syntax highlighter
+
 package pygments
 
 import (
