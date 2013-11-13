@@ -43,7 +43,7 @@ Here is a list of [Contributors](http://github.com/pksunkara/pygments.go/contrib
 
 ### TODO
 
-- Improve speed and performance even
+- Improve speed and performance
 
 __I accept pull requests and guarantee a reply back within a day__
 
