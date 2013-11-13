@@ -1,11 +1,19 @@
-# pygments.go
+# pygments
 
 A pygments wrapper for golang
 
 ## Importing
 
+Run this in terminal to install the package
+
 ```
-import github.com/pksunkara/pygments.go
+go get github.com/pksunkara/pygments
+```
+
+Use the following line in source file to import this package
+
+```
+import "github.com/pksunkara/pygments"
 ```
 
 ## Usage
