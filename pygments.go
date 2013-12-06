@@ -4,7 +4,8 @@ package pygments
 
 import (
 	"bytes"
-	"log"
+	"fmt"
+	"os"
 	"os/exec"
 	"strings"
 )
@@ -15,13 +16,17 @@ var (
 
 func Binary(path string) {
 	bin = path
-	return
+}
+
+func Which() string {
+	return bin
 }
 
 func Highlight(code string, lexer string, format string, enc string) string {
 
 	if _, err := exec.LookPath(bin); err != nil {
-		log.Fatal("You do not have " + bin + " installed!")
+		fmt.Println("You do not have " + bin + " installed!")
+		os.Exit(0)
 	}
 
 	cmd := exec.Command(bin, "-l"+lexer, "-f"+format, "-O encoding="+enc)
@@ -34,8 +39,9 @@ func Highlight(code string, lexer string, format string, enc string) string {
 	cmd.Stderr = &stderr
 
 	if err := cmd.Run(); err != nil {
-		log.Print(stderr.String())
-		log.Fatal(err)
+		fmt.Println(stderr.String())
+		fmt.Println(err)
+		os.Exit(0)
 	}
 
 	return out.String()
