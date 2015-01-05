@@ -12,7 +12,7 @@ go get github.com/pksunkara/pygments
 
 Use the following line in source file to import this package
 
-```
+```go
 import "github.com/pksunkara/pygments"
 ```
 
