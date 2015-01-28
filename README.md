@@ -36,7 +36,7 @@ pygments.Binary("/path/to/pygments/binary")
 
 ## Documentation
 
-Visit the docs on [gopkgdoc](http://godoc.org/github.com/pksunkara/pygments.go)
+Visit the docs on [gopkgdoc](http://godoc.org/github.com/pksunkara/pygments)
 
 ## Testing
 
@@ -47,7 +47,7 @@ go test
 If you like this project, please watch/star this and follow me
 
 ## Contributors
-Here is a list of [Contributors](http://github.com/pksunkara/pygments.go/contributors)
+Here is a list of [Contributors](http://github.com/pksunkara/pygments/contributors)
 
 ### TODO
 
@@ -59,7 +59,7 @@ __I accept pull requests and guarantee a reply back within a day__
 MIT/X11
 
 ## Bug Reports
-Report [here](http://github.com/pksunkara/pygments.go/issues). __Guaranteed reply within a day__.
+Report [here](http://github.com/pksunkara/pygments/issues). __Guaranteed reply within a day__.
 
 ## Contact
 Pavan Kumar Sunkara (pavan.sss1991@gmail.com)
